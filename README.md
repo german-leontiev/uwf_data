@@ -2,7 +2,7 @@
 
 Please, download [archive](https://drive.google.com/file/d/1qBTLUrnIgnra6c1AqcvXOxNMfMdwm87w/view?usp=sharing) and extract it to project folder.
 
-Использование (запускать из папки проекта):
+## Usage
 
 `python create_dataset.py "task" "cam" "split_ration" "output_dir"`
 
@@ -15,6 +15,6 @@ Please, download [archive](https://drive.google.com/file/d/1qBTLUrnIgnra6c1AqcvX
 `"0.75 0.1 0.05"`
 * output_dir - relative path to target folder, where you need to create dataset
 
-Example:
+## Example:
 
 `python create_dataset.py "loc" "optic" "0.7 0.2 0.1" "final_test"`
